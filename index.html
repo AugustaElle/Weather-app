@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodesPlus</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet"
+
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="styling/styling.css" />
+  </head>
+  <style>
+  </style>
+  <body>
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-12 present-day">
+          <h1 id="current-city"> Montreal</h1>
+          <h2 id="todays-date">
+            Monday
+          </h2>
+          <p id="sky-description">Clear</p>
+           <h3 id="todays-weather"> 20°C
+          </h3>
+          <h3 class="weather-image">☀️</h3>
+          <p id="high-temp-today">
+            High: 20°C
+          </p>
+        </div>          
+     <form id="search-form">
+       <input type="text"
+       placeholder="Enter city name"
+       autocomplete="off"
+       autofocus="on"
+       id="entered-city"/>
+       <input type="submit"
+       value="Go!"/>
+     </form>
+    </div>
+    <script src="styling/javascript.js"></script>
+  </body>
+</html>
+
