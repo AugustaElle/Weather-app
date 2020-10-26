@@ -31,3 +31,10 @@ p {
   line-height: 20px;
   margin-bottom: 2px;
 }
+
+.open-source-code {
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+
+}
